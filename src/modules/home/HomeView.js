@@ -30,7 +30,7 @@ export default function HomeScreen() {
       >
         <View style={styles.section}>
           <Text size={20} white>
-            Home
+            Welcome JSH App
           </Text>
         </View>
         <View style={styles.section}>
@@ -40,10 +40,6 @@ export default function HomeScreen() {
             />
         </View>
         <View style={[styles.section, styles.sectionLarge]}>
-          <Text color="#19e7f7" hCenter size={15} style={styles.description}>
-
-
-          </Text>
           <View style={styles.priceContainer}>
               <Text white size={14}>
                  version 1.0
@@ -63,12 +59,11 @@ const styles = StyleSheet.create({
   },
   bgImage: {
     flex: 1,
-    marginHorizontal: -20,
+    width : '100%',
   },
   mainImage: {
     flex: 1,
-    marginHorizontal: 110,
-    transform: [{ scale: 2 }]
+    transform: [{ scale: 2.5 }]
   },
   section: {
     flex: 1,
@@ -82,10 +77,7 @@ const styles = StyleSheet.create({
   },
   priceContainer: {
     alignItems: 'center',
-  },
-  description: {
-    padding: 15,
-    lineHeight: 25,
+    marginBottom: -100
   },
   title: {
     marginTop: 30,
